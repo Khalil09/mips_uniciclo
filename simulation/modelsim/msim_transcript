@@ -1,0 +1,217 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do Processador_mips_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {C:/Users/Khalil/Documents/Quartus projetos/Processador_mips/mips_pkg.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package mips_pkg
+# vcom -93 -work work {C:/Users/Khalil/Documents/Quartus projetos/Processador_mips/memoria_instrucoes.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity memoria_instrucoes
+# -- Compiling architecture SYN of memoria_instrucoes
+# vcom -93 -work work {C:/Users/Khalil/Documents/Quartus projetos/Processador_mips/Somador.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity somador
+# -- Compiling architecture rtl of somador
+# vcom -93 -work work {C:/Users/Khalil/Documents/Quartus projetos/Processador_mips/ula.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package mips_pkg
+# -- Compiling entity ula
+# -- Compiling architecture behavioral of ula
+# ** Warning: C:/Users/Khalil/Documents/Quartus projetos/Processador_mips/ula.vhd(35): (vcom-1074) Non-locally static OTHERS choice is allowed only if it is the only choice of the only association.
+# 
+# vcom -93 -work work {C:/Users/Khalil/Documents/Quartus projetos/Processador_mips/c_ula.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package mips_pkg
+# -- Compiling entity c_ula
+# -- Compiling architecture rtl of c_ula
+# vcom -93 -work work {C:/Users/Khalil/Documents/Quartus projetos/Processador_mips/breg.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package mips_pkg
+# -- Compiling entity breg
+# -- Compiling architecture rtl of breg
+# vcom -93 -work work {C:/Users/Khalil/Documents/Quartus projetos/Processador_mips/mux_two_to_one.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package mips_pkg
+# -- Compiling entity mux_two_to_one
+# -- Compiling architecture behavioral of mux_two_to_one
+# vcom -93 -work work {C:/Users/Khalil/Documents/Quartus projetos/Processador_mips/controle.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package mips_pkg
+# -- Compiling entity controle
+# -- Compiling architecture behavioral of controle
+# vcom -93 -work work {C:/Users/Khalil/Documents/Quartus projetos/Processador_mips/pc.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package mips_pkg
+# -- Compiling entity pc
+# -- Compiling architecture rtl of pc
+# vcom -93 -work work {C:/Users/Khalil/Documents/Quartus projetos/Processador_mips/mux_two_to_one_5.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package mips_pkg
+# -- Compiling entity mux_two_to_one_5
+# -- Compiling architecture behavioral of mux_two_to_one_5
+# vcom -93 -work work {C:/Users/Khalil/Documents/Quartus projetos/Processador_mips/memoria_dados.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package mips_pkg
+# -- Compiling entity memoria_dados
+# -- Compiling architecture SYN of memoria_dados
+# vcom -93 -work work {C:/Users/Khalil/Documents/Quartus projetos/Processador_mips/bregula.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package mips_pkg
+# -- Compiling entity bregula
+# -- Compiling architecture rtl of bregula
+# -- Loading entity ula
+# -- Loading entity breg
+# -- Loading entity c_ula
+# -- Loading entity mux_two_to_one
+# vcom -93 -work work {C:/Users/Khalil/Documents/Quartus projetos/Processador_mips/fetch.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package mips_pkg
+# -- Compiling entity fetch
+# -- Compiling architecture rtl of fetch
+# -- Loading entity pc
+# -- Loading entity memoria_instrucoes
+# -- Loading entity mux_two_to_one_5
+# vcom -93 -work work {C:/Users/Khalil/Documents/Quartus projetos/Processador_mips/mem_final.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package mips_pkg
+# -- Compiling entity mem_final
+# -- Compiling architecture rtl of mem_final
+# -- Loading entity memoria_dados
+# -- Loading entity mux_two_to_one
+# vcom -93 -work work {C:/Users/Khalil/Documents/Quartus projetos/Processador_mips/processador.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package mips_pkg
+# -- Compiling entity processador
+# -- Compiling architecture rtl of processador
+# -- Loading entity bregula
+# -- Loading entity fetch
+# -- Loading entity mem_final
+# -- Loading entity controle
+# -- Loading entity somador
+# -- Loading entity mux_two_to_one
+# 
+# vcom -93 -work work {C:/Users/Khalil/Documents/Quartus projetos/Processador_mips/processador_tb.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity processador_tb
+# -- Compiling architecture processador_arch of processador_tb
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneii -L rtl_work -L work -voptargs="+acc"  processador
+# vsim -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneii -L rtl_work -L work -voptargs=\"+acc\" -t 1ps processador 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.mips_pkg
+# Loading work.processador(rtl)
+# Loading work.bregula(rtl)
+# Loading work.ula(behavioral)
+# Loading work.breg(rtl)
+# Loading work.c_ula(rtl)
+# Loading work.mux_two_to_one(behavioral)
+# Loading work.fetch(rtl)
+# Loading work.pc(rtl)
+# Loading work.memoria_instrucoes(syn)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading altera_mf.altera_common_conversion(body)
+# Loading altera_mf.altera_device_families(body)
+# Loading altera_mf.altsyncram(translated)
+# Loading work.mux_two_to_one_5(behavioral)
+# Loading work.mem_final(rtl)
+# Loading work.memoria_dados(syn)
+# Loading work.controle(behavioral)
+# Loading work.somador(rtl)
+# ** Warning: (vsim-8683) Uninitialized out port /processador/fetch/pc_out(31 downto 0) has no driver.
+# 
+# This port will contribute value (UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU) to the signal network.
+# 
+# ** Warning: (vsim-8683) Uninitialized out port /processador/mem_final/data_wb(31 downto 0) has no driver.
+# 
+# This port will contribute value (UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU) to the signal network.
+# 
+# ** Warning: (vsim-8683) Uninitialized out port /processador/controle/jump has no driver.
+# 
+# This port will contribute value (U) to the signal network.
+# 
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 200 sec
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processador/bregula/breg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processador/bregula/breg

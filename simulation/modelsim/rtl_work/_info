@@ -1,0 +1,615 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Khalil\Documents\Quartus projetos\Processador_mips\simulation\modelsim
+Ebreg
+Z1 w1485221271
+Z2 DPx4 work 8 mips_pkg 0 22 YaD;QSUfSPzI;TA14mdUK3
+Z3 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z4 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z5 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z6 dC:\Users\Khalil\Documents\Quartus projetos\Processador_mips\simulation\modelsim
+Z7 8C:/Users/Khalil/Documents/Quartus projetos/Processador_mips/breg.vhd
+Z8 FC:/Users/Khalil/Documents/Quartus projetos/Processador_mips/breg.vhd
+l0
+L6
+VLd@k]o0<X494AMIF6aR8Y0
+Z9 OV;C;10.1d;51
+31
+Z10 !s108 1486153746.863000
+Z11 !s90 -reportprogress|300|-93|-work|work|C:/Users/Khalil/Documents/Quartus projetos/Processador_mips/breg.vhd|
+Z12 !s107 C:/Users/Khalil/Documents/Quartus projetos/Processador_mips/breg.vhd|
+Z13 o-93 -work work -O0
+Z14 tExplicit 1
+!s100 =AH87JfTXUZU7LTS=8lC:3
+!i10b 1
+Artl
+R2
+R3
+R4
+R5
+Z15 DEx4 work 4 breg 0 22 Ld@k]o0<X494AMIF6aR8Y0
+l28
+L23
+VnYG0bU@GVmePPIVfzYTRk2
+R9
+31
+R10
+R11
+R12
+R13
+R14
+!s100 :nNk[SBV[Vz12e3Y]MELB3
+!i10b 1
+Ebregula
+Z16 w1486145657
+R2
+R3
+R4
+R5
+R6
+Z17 8C:/Users/Khalil/Documents/Quartus projetos/Processador_mips/bregula.vhd
+Z18 FC:/Users/Khalil/Documents/Quartus projetos/Processador_mips/bregula.vhd
+l0
+L6
+V^El<b9@Ej>4i]hZYDf1L00
+R9
+31
+Z19 !s108 1486153751.453000
+Z20 !s90 -reportprogress|300|-93|-work|work|C:/Users/Khalil/Documents/Quartus projetos/Processador_mips/bregula.vhd|
+Z21 !s107 C:/Users/Khalil/Documents/Quartus projetos/Processador_mips/bregula.vhd|
+R13
+R14
+!s100 WMLozF1aW8cIY`0jN9z5n1
+!i10b 1
+Artl
+Z22 DEx4 work 14 mux_two_to_one 0 22 >nM6Qm[2N4ND=86cO9I]F0
+Z23 DEx4 work 5 c_ula 0 22 7:18`9EU6TG;85Xc2QiWM0
+R15
+Z24 DEx4 work 3 ula 0 22 G`eJ2dK4`<=4^0I^PoTkE2
+R2
+R3
+R4
+R5
+Z25 DEx4 work 7 bregula 0 22 ^El<b9@Ej>4i]hZYDf1L00
+l32
+L25
+Vl4Q8kCCSnai6Hg@mn^Ulj0
+R9
+31
+R19
+R20
+R21
+R13
+R14
+!s100 ?dJPQEM_0TX@J:bQlS37b1
+!i10b 1
+Ec_ula
+Z26 w1485358431
+R2
+R3
+R4
+R5
+R6
+Z27 8C:/Users/Khalil/Documents/Quartus projetos/Processador_mips/c_ula.vhd
+Z28 FC:/Users/Khalil/Documents/Quartus projetos/Processador_mips/c_ula.vhd
+l0
+L6
+V7:18`9EU6TG;85Xc2QiWM0
+R9
+31
+Z29 !s108 1486153745.951000
+Z30 !s90 -reportprogress|300|-93|-work|work|C:/Users/Khalil/Documents/Quartus projetos/Processador_mips/c_ula.vhd|
+Z31 !s107 C:/Users/Khalil/Documents/Quartus projetos/Processador_mips/c_ula.vhd|
+R13
+R14
+!s100 JNLj3`MLMQNWil:cjgXEP0
+!i10b 1
+Artl
+R2
+R3
+R4
+R5
+R23
+l18
+L15
+Vi=<m7N@Y@UY75LS;cZ2E30
+R9
+31
+R29
+R30
+R31
+R13
+R14
+!s100 gfTEH:Y2SfkME0MKz9aTS0
+!i10b 1
+Econtrole
+Z32 w1486140193
+R3
+R2
+R4
+R5
+R6
+Z33 8C:/Users/Khalil/Documents/Quartus projetos/Processador_mips/controle.vhd
+Z34 FC:/Users/Khalil/Documents/Quartus projetos/Processador_mips/controle.vhd
+l0
+L5
+VdH>1?5Z@YG59jZB]nZ_^j2
+R9
+31
+Z35 !s108 1486153748.478000
+Z36 !s90 -reportprogress|300|-93|-work|work|C:/Users/Khalil/Documents/Quartus projetos/Processador_mips/controle.vhd|
+Z37 !s107 C:/Users/Khalil/Documents/Quartus projetos/Processador_mips/controle.vhd|
+R13
+R14
+!s100 DzA6cbKED5<AC?DNXZG8W1
+!i10b 1
+Abehavioral
+R3
+R2
+R4
+R5
+Z38 DEx4 work 8 controle 0 22 dH>1?5Z@YG59jZB]nZ_^j2
+l24
+L22
+V<lA[RVFzm_G5RS6dj9DQ23
+R9
+31
+R35
+R36
+R37
+R13
+R14
+!s100 <f:V`SgfeBS=m6XG?i3392
+!i10b 1
+Efetch
+Z39 w1486006298
+R2
+R3
+R4
+R5
+R6
+Z40 8C:/Users/Khalil/Documents/Quartus projetos/Processador_mips/fetch.vhd
+Z41 FC:/Users/Khalil/Documents/Quartus projetos/Processador_mips/fetch.vhd
+l0
+L6
+Vnn`@SN1JWY8eW[N_25^eD1
+R9
+31
+Z42 !s108 1486153752.081000
+Z43 !s90 -reportprogress|300|-93|-work|work|C:/Users/Khalil/Documents/Quartus projetos/Processador_mips/fetch.vhd|
+Z44 !s107 C:/Users/Khalil/Documents/Quartus projetos/Processador_mips/fetch.vhd|
+R13
+R14
+!s100 =W9=n8fD]W7`8[G]iN;m;3
+!i10b 1
+Artl
+Z45 DEx4 work 16 mux_two_to_one_5 0 22 _GWd5]iNV_<`4@n?0M;zZ1
+Z46 DEx4 work 18 memoria_instrucoes 0 22 hOaFR2I1JZhE]dM2ZI@1F3
+Z47 DEx4 work 2 pc 0 22 m>PFV>Rm1ISLmMdLdY7Q]3
+R2
+R3
+R4
+R5
+Z48 DEx4 work 5 fetch 0 22 nn`@SN1JWY8eW[N_25^eD1
+l30
+L21
+V=H<hDYZi0i8VAX>aN;G:d3
+R9
+31
+R42
+R43
+R44
+R13
+R14
+!s100 6B:LUJ7OX7Po@NY6hMSBN1
+!i10b 1
+Emem_final
+Z49 w1486150478
+R2
+R3
+R4
+R5
+R6
+Z50 8C:/Users/Khalil/Documents/Quartus projetos/Processador_mips/mem_final.vhd
+Z51 FC:/Users/Khalil/Documents/Quartus projetos/Processador_mips/mem_final.vhd
+l0
+L6
+VY_2j<6`U=Nba5z`LIhgg?3
+R9
+31
+Z52 !s108 1486153752.779000
+Z53 !s90 -reportprogress|300|-93|-work|work|C:/Users/Khalil/Documents/Quartus projetos/Processador_mips/mem_final.vhd|
+Z54 !s107 C:/Users/Khalil/Documents/Quartus projetos/Processador_mips/mem_final.vhd|
+R13
+R14
+!s100 @cLUW_4QS?OGn53=h8]N<1
+!i10b 1
+Artl
+R22
+Z55 DEx4 work 13 memoria_dados 0 22 FF9=ENGK2>k[a`6i`W]Xi3
+R2
+R3
+R4
+R5
+Z56 DEx4 work 9 mem_final 0 22 Y_2j<6`U=Nba5z`LIhgg?3
+l26
+L20
+VA<cmV4N8n<K>`T;hYO:J<1
+R9
+31
+R52
+R53
+R54
+R13
+R14
+!s100 nQ1mG6;XReml8][I3mfB81
+!i10b 1
+Ememoria_dados
+Z57 w1486082854
+R3
+R2
+R4
+R5
+R6
+Z58 8C:/Users/Khalil/Documents/Quartus projetos/Processador_mips/memoria_dados.vhd
+Z59 FC:/Users/Khalil/Documents/Quartus projetos/Processador_mips/memoria_dados.vhd
+l0
+L43
+VFF9=ENGK2>k[a`6i`W]Xi3
+R9
+31
+Z60 !s108 1486153750.856000
+Z61 !s90 -reportprogress|300|-93|-work|work|C:/Users/Khalil/Documents/Quartus projetos/Processador_mips/memoria_dados.vhd|
+Z62 !s107 C:/Users/Khalil/Documents/Quartus projetos/Processador_mips/memoria_dados.vhd|
+R13
+R14
+!s100 3`@PBa;V9F?0CkmaCdF3S2
+!i10b 1
+Asyn
+R3
+R2
+R4
+R5
+R55
+l86
+L55
+Va]PZ][g4ZHo3TIISM>1_i0
+R9
+31
+R60
+R61
+R62
+R13
+R14
+!s100 nhmc_nj1OA>;R;an;kf;52
+!i10b 1
+Ememoria_instrucoes
+Z63 w1486006768
+R4
+R5
+R6
+Z64 8C:/Users/Khalil/Documents/Quartus projetos/Processador_mips/memoria_instrucoes.vhd
+Z65 FC:/Users/Khalil/Documents/Quartus projetos/Processador_mips/memoria_instrucoes.vhd
+l0
+L42
+VhOaFR2I1JZhE]dM2ZI@1F3
+R9
+31
+Z66 !s108 1486153744.237000
+Z67 !s90 -reportprogress|300|-93|-work|work|C:/Users/Khalil/Documents/Quartus projetos/Processador_mips/memoria_instrucoes.vhd|
+Z68 !s107 C:/Users/Khalil/Documents/Quartus projetos/Processador_mips/memoria_instrucoes.vhd|
+R13
+R14
+!s100 ^jjKY<^6OEM^1^Pb5`:W30
+!i10b 1
+Asyn
+R4
+R5
+R46
+l81
+L52
+V[0kAYG2`RhGY1LoFhG`Om2
+R9
+31
+R66
+R67
+R68
+R13
+R14
+!s100 bPd;gQgi0FFYO_ii5KMcm2
+!i10b 1
+Pmips_pkg
+R3
+R4
+R5
+w1486140209
+R6
+8C:/Users/Khalil/Documents/Quartus projetos/Processador_mips/mips_pkg.vhd
+FC:/Users/Khalil/Documents/Quartus projetos/Processador_mips/mips_pkg.vhd
+l0
+L4
+VYaD;QSUfSPzI;TA14mdUK3
+R9
+31
+R13
+R14
+!s100 Vnj93bm^[>YOH5@2hJmJ30
+!i10b 1
+!s108 1486153743.121000
+!s90 -reportprogress|300|-93|-work|work|C:/Users/Khalil/Documents/Quartus projetos/Processador_mips/mips_pkg.vhd|
+!s107 C:/Users/Khalil/Documents/Quartus projetos/Processador_mips/mips_pkg.vhd|
+Emux_two_to_one
+Z69 w1485973739
+R3
+R2
+R4
+R5
+R6
+Z70 8C:/Users/Khalil/Documents/Quartus projetos/Processador_mips/mux_two_to_one.vhd
+Z71 FC:/Users/Khalil/Documents/Quartus projetos/Processador_mips/mux_two_to_one.vhd
+l0
+L5
+V>nM6Qm[2N4ND=86cO9I]F0
+R9
+31
+Z72 !s108 1486153747.534000
+Z73 !s90 -reportprogress|300|-93|-work|work|C:/Users/Khalil/Documents/Quartus projetos/Processador_mips/mux_two_to_one.vhd|
+Z74 !s107 C:/Users/Khalil/Documents/Quartus projetos/Processador_mips/mux_two_to_one.vhd|
+R13
+R14
+!s100 ZXk?US4a13:V9cR48U`[R2
+!i10b 1
+Abehavioral
+R3
+R2
+R4
+R5
+R22
+l18
+L16
+VQ9Ndf7KTT?BD<^5=zdDkW0
+R9
+31
+R72
+R73
+R74
+R13
+R14
+!s100 _e6UjeSEog694nJ]I>Akl3
+!i10b 1
+Emux_two_to_one_5
+Z75 w1486006793
+R3
+R2
+R4
+R5
+R6
+Z76 8C:/Users/Khalil/Documents/Quartus projetos/Processador_mips/mux_two_to_one_5.vhd
+Z77 FC:/Users/Khalil/Documents/Quartus projetos/Processador_mips/mux_two_to_one_5.vhd
+l0
+L5
+V_GWd5]iNV_<`4@n?0M;zZ1
+R9
+31
+Z78 !s108 1486153750.276000
+Z79 !s90 -reportprogress|300|-93|-work|work|C:/Users/Khalil/Documents/Quartus projetos/Processador_mips/mux_two_to_one_5.vhd|
+Z80 !s107 C:/Users/Khalil/Documents/Quartus projetos/Processador_mips/mux_two_to_one_5.vhd|
+R13
+R14
+!s100 H3B=e9R[SCYKVDQ7DfZD80
+!i10b 1
+Abehavioral
+R3
+R2
+R4
+R5
+R45
+l18
+L16
+V2^n]A3`d``52Xg>W1GBkO0
+R9
+31
+R78
+R79
+R80
+R13
+R14
+!s100 oMf>I=eGlN<4EnihLc=Ka0
+!i10b 1
+Epc
+Z81 w1486004254
+R2
+R3
+R4
+R5
+R6
+Z82 8C:/Users/Khalil/Documents/Quartus projetos/Processador_mips/pc.vhd
+Z83 FC:/Users/Khalil/Documents/Quartus projetos/Processador_mips/pc.vhd
+l0
+L6
+Vm>PFV>Rm1ISLmMdLdY7Q]3
+R9
+31
+Z84 !s108 1486153749.649000
+Z85 !s90 -reportprogress|300|-93|-work|work|C:/Users/Khalil/Documents/Quartus projetos/Processador_mips/pc.vhd|
+Z86 !s107 C:/Users/Khalil/Documents/Quartus projetos/Processador_mips/pc.vhd|
+R13
+R14
+!s100 gDG>R9<SM;L4fV3c5[ZaI2
+!i10b 1
+Artl
+R2
+R3
+R4
+R5
+R47
+l17
+L15
+VNZfF7kalC@EZaI`OcG=Kz3
+R9
+31
+R84
+R85
+R86
+R13
+R14
+!s100 4i=A>KD@Q<NGhofamKJ<U2
+!i10b 1
+Eprocessador
+Z87 w1486150922
+R2
+R5
+R4
+R3
+R6
+Z88 8C:/Users/Khalil/Documents/Quartus projetos/Processador_mips/processador.vhd
+Z89 FC:/Users/Khalil/Documents/Quartus projetos/Processador_mips/processador.vhd
+l0
+L6
+V<A`MQ2__giNUIcJ[305^V2
+R9
+31
+Z90 !s108 1486153753.354000
+Z91 !s90 -reportprogress|300|-93|-work|work|C:/Users/Khalil/Documents/Quartus projetos/Processador_mips/processador.vhd|
+Z92 !s107 C:/Users/Khalil/Documents/Quartus projetos/Processador_mips/processador.vhd|
+R13
+R14
+!s100 2I7kCQnaNzMVGmJ]MYX]^3
+!i10b 1
+Artl
+R22
+Z93 DEx4 work 7 somador 0 22 3Z]Kh79[mhjN[E>MUeM_g2
+R38
+R56
+R48
+R25
+R2
+R5
+R4
+R3
+DEx4 work 11 processador 0 22 <A`MQ2__giNUIcJ[305^V2
+l55
+L13
+V7T16Tm7WQ4PJN3]?54BbD3
+R9
+31
+R90
+R91
+R92
+R13
+R14
+!s100 Q3[d=KOX:VNAEM1]NP6m^0
+!i10b 1
+Eprocessador_tb
+Z94 w1486153387
+R4
+R5
+R6
+Z95 8C:/Users/Khalil/Documents/Quartus projetos/Processador_mips/processador_tb.vhd
+Z96 FC:/Users/Khalil/Documents/Quartus projetos/Processador_mips/processador_tb.vhd
+l0
+L30
+V=b4mk:8[EFCA@;L:5idDV0
+!s100 KgFNXZ4=;7@a_I:LlcSXJ0
+R9
+31
+!i10b 1
+Z97 !s108 1486153753.925000
+Z98 !s90 -reportprogress|300|-93|-work|work|C:/Users/Khalil/Documents/Quartus projetos/Processador_mips/processador_tb.vhd|
+Z99 !s107 C:/Users/Khalil/Documents/Quartus projetos/Processador_mips/processador_tb.vhd|
+R13
+R14
+Aprocessador_arch
+R4
+R5
+DEx4 work 14 processador_tb 0 22 =b4mk:8[EFCA@;L:5idDV0
+l44
+L32
+VZnT5JJ9;0X`XMPWhKDaKM1
+!s100 ;4BNE7heG5=[W6G4od6>T1
+R9
+31
+!i10b 1
+R97
+R98
+R99
+R13
+R14
+Esomador
+Z100 w1486148370
+R3
+R4
+R5
+R6
+Z101 8C:/Users/Khalil/Documents/Quartus projetos/Processador_mips/Somador.vhd
+Z102 FC:/Users/Khalil/Documents/Quartus projetos/Processador_mips/Somador.vhd
+l0
+L8
+V3Z]Kh79[mhjN[E>MUeM_g2
+R9
+31
+Z103 !s108 1486153744.841000
+Z104 !s90 -reportprogress|300|-93|-work|work|C:/Users/Khalil/Documents/Quartus projetos/Processador_mips/Somador.vhd|
+Z105 !s107 C:/Users/Khalil/Documents/Quartus projetos/Processador_mips/Somador.vhd|
+R13
+R14
+!s100 aGj6]RO1Fl3JE8::[?U9M1
+!i10b 1
+Artl
+R3
+R4
+R5
+R93
+l25
+L24
+V@P0;F<<0MLd^g4G?k9A4;1
+R9
+31
+R103
+R104
+R105
+R13
+R14
+!s100 T?[5edmAAZD9PJEGSDFNW1
+!i10b 1
+Eula
+Z106 w1485221273
+R2
+R3
+R4
+R5
+R6
+Z107 8C:/Users/Khalil/Documents/Quartus projetos/Processador_mips/ula.vhd
+Z108 FC:/Users/Khalil/Documents/Quartus projetos/Processador_mips/ula.vhd
+l0
+L6
+VG`eJ2dK4`<=4^0I^PoTkE2
+R9
+31
+Z109 !s108 1486153745.416000
+Z110 !s90 -reportprogress|300|-93|-work|work|C:/Users/Khalil/Documents/Quartus projetos/Processador_mips/ula.vhd|
+Z111 !s107 C:/Users/Khalil/Documents/Quartus projetos/Processador_mips/ula.vhd|
+R13
+R14
+!s100 M_HU0XcHkKJ4Gi_d6mLDX0
+!i10b 1
+Abehavioral
+R2
+R3
+R4
+R5
+R24
+l20
+L15
+VP;dnIzZD_nUYX7z@6kl7I3
+R9
+31
+R109
+R110
+R111
+R13
+R14
+!s100 KfGXC6S[H@ek1=LJ6=4An2
+!i10b 1

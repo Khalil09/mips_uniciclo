@@ -1,0 +1,15 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+use work.mips_pkg.all;
+
+entity mem_final is
+	port(
+		address_in		:	in	std_logic_vector(31 downto 0);
+		write_data		:	in std_logic_vector(31 downto 0);
+		data_to_mux		:	in std_logic_vector(31 downto 0);
+		mem_data_write	:	in std_logic_vector(31 downto 0);
+		escreve_mem		:	in std_logic;
+		le_mem			:	in std_logic;
+		mem_para_reg	:	in std_logic;
+	);

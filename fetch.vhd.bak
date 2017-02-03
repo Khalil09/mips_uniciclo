@@ -1,0 +1,39 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use numeric_std.all;
+use work.mips_pkg.all;
+
+entity fetch is
+	port(
+		pc_mais_4	:	in std_logic_vector(31 downto 0);
+		reg_dst		: 	in std_logic;
+		clock			:	in std_logic;
+		clock_mem	:	in std_logic;
+		
+		r1,r2,r_out	:	out std_logic_vector(4 downto 0);
+		pc_out		: 	out std_logic_vector(31 downto 0);
+		imed_16		: 	out std_logic_vector(15 downto 0);
+		jump_out		:	out std_logic_vector(25 downto 0)
+	);
+end fetch;
+
+architecture rtl of fetch is
+
+	signal pc_to_mem	:	std_logic_vector(7 downto 0);
+	signal pc_out_32	:	std_logic_vector(31 downto 0)
+	
+begin
+	
+	pc_to_mem <= pc_out_32(9 downto 2);
+	
+pc: entity.work.pc port map(
+	din		=>	pc_mais_4,
+	clock		=> clock,
+	dout		=> pc_out_32
+);
+
+memoria_intrucoes: entity.work.memoria_instrucoes port map(
+	address	=>	pc_to_mem,
+	clock		=> clock_mem,
+
+);

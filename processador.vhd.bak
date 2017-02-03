@@ -1,0 +1,30 @@
+library ieee;
+use ieee.numeric_std.all;
+use ieee.std_logic_1164.all;
+use work.mips_pkg.all;
+
+entity processador is
+
+end processador;
+
+architecture processador is
+
+begin
+
+bregula:	entity work.bregula port map(
+	din,				
+	we, 
+	clk,		
+	rs, 
+	rt, 
+	rd,		
+	func,			
+	opula,				
+	orig_alu,			
+	imed_16,			
+	
+	zero,				
+	dout,				
+	imed_32,			
+	mem_data_write	
+);
