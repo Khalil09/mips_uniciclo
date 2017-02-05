@@ -158,11 +158,15 @@ package	mips_pkg	is
 		);
 	end component;
 	-- Controle	ULAmips
-	constant	ULA_AND :	std_logic_vector(3	downto	0)	:=	"0000";	-- 0
-	constant	ULA_OR  :	std_logic_vector(3	downto	0)	:=	"0001";	-- 1
-	constant	ULA_ADD :	std_logic_vector(3	downto	0)	:=	"0010";	-- 2
-	constant	ULA_SUB :	std_logic_vector(3	downto	0)	:=	"0110";	-- 6
-	constant	ULA_SLT :	std_logic_vector(3	downto	0)	:=	"0111";	-- 7
-	constant	ULA_NOR :	std_logic_vector(3	downto	0)	:=	"1100";	-- 12
-	constant	ULA_UKW :	std_logic_vector(3	downto	0)	:=	"XXXX";
+	constant	ULA_AND 	:	std_logic_vector(3	downto	0)	:=	"0000";	-- 0
+	constant	ULA_OR  	:	std_logic_vector(3	downto	0)	:=	"0001";	-- 1
+	constant	ULA_ADD 	:	std_logic_vector(3	downto	0)	:=	"0010";	-- 2
+	constant	ULA_SUB 	:	std_logic_vector(3	downto	0)	:=	"0110";	-- 6
+	constant	ULA_SLT 	:	std_logic_vector(3	downto	0)	:=	"0111";	-- 7
+	constant	ULA_NOR 	:	std_logic_vector(3	downto	0)	:=	"1100";	-- 12
+	constant	ULA_XOR 	:	std_logic_vector(3	downto	0)	:= "0011";	-- 3
+	constant	ULA_SLL 	:	std_logic_vector(3	downto	0)	:= "0100"; 	-- 4
+	constant	ULA_SRL	:	std_logic_vector(3	downto	0)	:= "0101";	-- 5
+	constant	ULA_SRA	:	std_logic_vector(3	downto	0)	:=	"1000";	-- 8
+	constant	ULA_UKW 	:	std_logic_vector(3	downto	0)	:=	"XXXX";
 end	mips_pkg;

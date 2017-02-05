@@ -1,6 +1,6 @@
 Analysis & Synthesis report for Processador_mips
-Fri Feb 03 18:04:52 2017
-Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+Sun Feb 05 20:57:18 2017
+Quartus II 64-Bit Version 13.0.0 Build 156 04/24/2013 SJ Web Edition
 
 
 ---------------------
@@ -62,24 +62,24 @@ applicable agreement for further details.
 
 
 
-+--------------------------------------------------------------------------------------+
-; Analysis & Synthesis Summary                                                         ;
-+------------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Fri Feb 03 18:04:52 2017           ;
-; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
-; Revision Name                      ; Processador_mips                                ;
-; Top-level Entity Name              ; processador                                     ;
-; Family                             ; Cyclone II                                      ;
-; Total logic elements               ; 0                                               ;
-;     Total combinational functions  ; 0                                               ;
-;     Dedicated logic registers      ; 0                                               ;
-; Total registers                    ; 0                                               ;
-; Total pins                         ; 2                                               ;
-; Total virtual pins                 ; 0                                               ;
-; Total memory bits                  ; 0                                               ;
-; Embedded Multiplier 9-bit elements ; 0                                               ;
-; Total PLLs                         ; 0                                               ;
-+------------------------------------+-------------------------------------------------+
++---------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                    ;
++------------------------------------+--------------------------------------------+
+; Analysis & Synthesis Status        ; Successful - Sun Feb 05 20:57:18 2017      ;
+; Quartus II 64-Bit Version          ; 13.0.0 Build 156 04/24/2013 SJ Web Edition ;
+; Revision Name                      ; Processador_mips                           ;
+; Top-level Entity Name              ; processador                                ;
+; Family                             ; Cyclone II                                 ;
+; Total logic elements               ; 0                                          ;
+;     Total combinational functions  ; 0                                          ;
+;     Dedicated logic registers      ; 0                                          ;
+; Total registers                    ; 0                                          ;
+; Total pins                         ; 2                                          ;
+; Total virtual pins                 ; 0                                          ;
+; Total memory bits                  ; 0                                          ;
+; Embedded Multiplier 9-bit elements ; 0                                          ;
+; Total PLLs                         ; 0                                          ;
++------------------------------------+--------------------------------------------+
 
 
 +----------------------------------------------------------------------------------------------------------------------+
@@ -173,44 +173,44 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------------------+--------+
 ; Processors                 ; Number ;
 +----------------------------+--------+
-; Number detected on machine ; 8      ;
+; Number detected on machine ; 4      ;
 ; Maximum allowed            ; 1      ;
 +----------------------------+--------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                                     ;
-+----------------------------------+-----------------+----------------------------------------+------------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                              ; File Name with Absolute Path                                                       ; Library ;
-+----------------------------------+-----------------+----------------------------------------+------------------------------------------------------------------------------------+---------+
-; ula.vhd                          ; yes             ; User VHDL File                         ; C:/Users/Khalil/Documents/Quartus projetos/Processador_mips/ula.vhd                ;         ;
-; mips_pkg.vhd                     ; yes             ; User VHDL File                         ; C:/Users/Khalil/Documents/Quartus projetos/Processador_mips/mips_pkg.vhd           ;         ;
-; c_ula.vhd                        ; yes             ; User VHDL File                         ; C:/Users/Khalil/Documents/Quartus projetos/Processador_mips/c_ula.vhd              ;         ;
-; bregula.vhd                      ; yes             ; User VHDL File                         ; C:/Users/Khalil/Documents/Quartus projetos/Processador_mips/bregula.vhd            ;         ;
-; breg.vhd                         ; yes             ; User VHDL File                         ; C:/Users/Khalil/Documents/Quartus projetos/Processador_mips/breg.vhd               ;         ;
-; mux_two_to_one.vhd               ; yes             ; User VHDL File                         ; C:/Users/Khalil/Documents/Quartus projetos/Processador_mips/mux_two_to_one.vhd     ;         ;
-; controle.vhd                     ; yes             ; User VHDL File                         ; C:/Users/Khalil/Documents/Quartus projetos/Processador_mips/controle.vhd           ;         ;
-; pc.vhd                           ; yes             ; User VHDL File                         ; C:/Users/Khalil/Documents/Quartus projetos/Processador_mips/pc.vhd                 ;         ;
-; memoria_instrucoes.vhd           ; yes             ; User Wizard-Generated File             ; C:/Users/Khalil/Documents/Quartus projetos/Processador_mips/memoria_instrucoes.vhd ;         ;
-; fetch.vhd                        ; yes             ; User VHDL File                         ; C:/Users/Khalil/Documents/Quartus projetos/Processador_mips/fetch.vhd              ;         ;
-; mux_two_to_one_5.vhd             ; yes             ; User VHDL File                         ; C:/Users/Khalil/Documents/Quartus projetos/Processador_mips/mux_two_to_one_5.vhd   ;         ;
-; memoria_dados.vhd                ; yes             ; User Wizard-Generated File             ; C:/Users/Khalil/Documents/Quartus projetos/Processador_mips/memoria_dados.vhd      ;         ;
-; mem_final.vhd                    ; yes             ; User VHDL File                         ; C:/Users/Khalil/Documents/Quartus projetos/Processador_mips/mem_final.vhd          ;         ;
-; Somador.vhd                      ; yes             ; User VHDL File                         ; C:/Users/Khalil/Documents/Quartus projetos/Processador_mips/Somador.vhd            ;         ;
-; processador.vhd                  ; yes             ; User VHDL File                         ; C:/Users/Khalil/Documents/Quartus projetos/Processador_mips/processador.vhd        ;         ;
-; altsyncram.tdf                   ; yes             ; Megafunction                           ; c:/altera/13.0sp1/quartus/libraries/megafunctions/altsyncram.tdf                   ;         ;
-; stratix_ram_block.inc            ; yes             ; Megafunction                           ; c:/altera/13.0sp1/quartus/libraries/megafunctions/stratix_ram_block.inc            ;         ;
-; lpm_mux.inc                      ; yes             ; Megafunction                           ; c:/altera/13.0sp1/quartus/libraries/megafunctions/lpm_mux.inc                      ;         ;
-; lpm_decode.inc                   ; yes             ; Megafunction                           ; c:/altera/13.0sp1/quartus/libraries/megafunctions/lpm_decode.inc                   ;         ;
-; aglobal130.inc                   ; yes             ; Megafunction                           ; c:/altera/13.0sp1/quartus/libraries/megafunctions/aglobal130.inc                   ;         ;
-; a_rdenreg.inc                    ; yes             ; Megafunction                           ; c:/altera/13.0sp1/quartus/libraries/megafunctions/a_rdenreg.inc                    ;         ;
-; altrom.inc                       ; yes             ; Megafunction                           ; c:/altera/13.0sp1/quartus/libraries/megafunctions/altrom.inc                       ;         ;
-; altram.inc                       ; yes             ; Megafunction                           ; c:/altera/13.0sp1/quartus/libraries/megafunctions/altram.inc                       ;         ;
-; altdpram.inc                     ; yes             ; Megafunction                           ; c:/altera/13.0sp1/quartus/libraries/megafunctions/altdpram.inc                     ;         ;
-; db/altsyncram_7a81.tdf           ; yes             ; Auto-Generated Megafunction            ; C:/Users/Khalil/Documents/Quartus projetos/Processador_mips/db/altsyncram_7a81.tdf ;         ;
-; instrucoes.mif                   ; yes             ; Auto-Found Memory Initialization File  ; C:/Users/Khalil/Documents/Quartus projetos/Processador_mips/instrucoes.mif         ;         ;
-; db/altsyncram_tsa1.tdf           ; yes             ; Auto-Generated Megafunction            ; C:/Users/Khalil/Documents/Quartus projetos/Processador_mips/db/altsyncram_tsa1.tdf ;         ;
-+----------------------------------+-----------------+----------------------------------------+------------------------------------------------------------------------------------+---------+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                       ;
++----------------------------------+-----------------+----------------------------------------+----------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                              ; File Name with Absolute Path                                         ; Library ;
++----------------------------------+-----------------+----------------------------------------+----------------------------------------------------------------------+---------+
+; ula.vhd                          ; yes             ; User VHDL File                         ; C:/Users/kiwii/Desktop/mips_uniciclo-master/ula.vhd                  ;         ;
+; mips_pkg.vhd                     ; yes             ; User VHDL File                         ; C:/Users/kiwii/Desktop/mips_uniciclo-master/mips_pkg.vhd             ;         ;
+; c_ula.vhd                        ; yes             ; User VHDL File                         ; C:/Users/kiwii/Desktop/mips_uniciclo-master/c_ula.vhd                ;         ;
+; bregula.vhd                      ; yes             ; User VHDL File                         ; C:/Users/kiwii/Desktop/mips_uniciclo-master/bregula.vhd              ;         ;
+; breg.vhd                         ; yes             ; User VHDL File                         ; C:/Users/kiwii/Desktop/mips_uniciclo-master/breg.vhd                 ;         ;
+; mux_two_to_one.vhd               ; yes             ; User VHDL File                         ; C:/Users/kiwii/Desktop/mips_uniciclo-master/mux_two_to_one.vhd       ;         ;
+; controle.vhd                     ; yes             ; User VHDL File                         ; C:/Users/kiwii/Desktop/mips_uniciclo-master/controle.vhd             ;         ;
+; pc.vhd                           ; yes             ; User VHDL File                         ; C:/Users/kiwii/Desktop/mips_uniciclo-master/pc.vhd                   ;         ;
+; memoria_instrucoes.vhd           ; yes             ; User Wizard-Generated File             ; C:/Users/kiwii/Desktop/mips_uniciclo-master/memoria_instrucoes.vhd   ;         ;
+; fetch.vhd                        ; yes             ; User VHDL File                         ; C:/Users/kiwii/Desktop/mips_uniciclo-master/fetch.vhd                ;         ;
+; mux_two_to_one_5.vhd             ; yes             ; User VHDL File                         ; C:/Users/kiwii/Desktop/mips_uniciclo-master/mux_two_to_one_5.vhd     ;         ;
+; memoria_dados.vhd                ; yes             ; User Wizard-Generated File             ; C:/Users/kiwii/Desktop/mips_uniciclo-master/memoria_dados.vhd        ;         ;
+; mem_final.vhd                    ; yes             ; User VHDL File                         ; C:/Users/kiwii/Desktop/mips_uniciclo-master/mem_final.vhd            ;         ;
+; Somador.vhd                      ; yes             ; User VHDL File                         ; C:/Users/kiwii/Desktop/mips_uniciclo-master/Somador.vhd              ;         ;
+; processador.vhd                  ; yes             ; User VHDL File                         ; C:/Users/kiwii/Desktop/mips_uniciclo-master/processador.vhd          ;         ;
+; altsyncram.tdf                   ; yes             ; Megafunction                           ; c:/altera/13.0/quartus/libraries/megafunctions/altsyncram.tdf        ;         ;
+; stratix_ram_block.inc            ; yes             ; Megafunction                           ; c:/altera/13.0/quartus/libraries/megafunctions/stratix_ram_block.inc ;         ;
+; lpm_mux.inc                      ; yes             ; Megafunction                           ; c:/altera/13.0/quartus/libraries/megafunctions/lpm_mux.inc           ;         ;
+; lpm_decode.inc                   ; yes             ; Megafunction                           ; c:/altera/13.0/quartus/libraries/megafunctions/lpm_decode.inc        ;         ;
+; aglobal130.inc                   ; yes             ; Megafunction                           ; c:/altera/13.0/quartus/libraries/megafunctions/aglobal130.inc        ;         ;
+; a_rdenreg.inc                    ; yes             ; Megafunction                           ; c:/altera/13.0/quartus/libraries/megafunctions/a_rdenreg.inc         ;         ;
+; altrom.inc                       ; yes             ; Megafunction                           ; c:/altera/13.0/quartus/libraries/megafunctions/altrom.inc            ;         ;
+; altram.inc                       ; yes             ; Megafunction                           ; c:/altera/13.0/quartus/libraries/megafunctions/altram.inc            ;         ;
+; altdpram.inc                     ; yes             ; Megafunction                           ; c:/altera/13.0/quartus/libraries/megafunctions/altdpram.inc          ;         ;
+; db/altsyncram_7a81.tdf           ; yes             ; Auto-Generated Megafunction            ; C:/Users/kiwii/Desktop/mips_uniciclo-master/db/altsyncram_7a81.tdf   ;         ;
+; instrucoes.mif                   ; yes             ; Auto-Found Memory Initialization File  ; C:/Users/kiwii/Desktop/mips_uniciclo-master/instrucoes.mif           ;         ;
+; db/altsyncram_tsa1.tdf           ; yes             ; Auto-Generated Megafunction            ; C:/Users/kiwii/Desktop/mips_uniciclo-master/db/altsyncram_tsa1.tdf   ;         ;
++----------------------------------+-----------------+----------------------------------------+----------------------------------------------------------------------+---------+
 
 
 +-----------------------------------------------------+
@@ -243,19 +243,19 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+--------------+
 ; Compilation Hierarchy Node ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name ; Library Name ;
 +----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+--------------+
-; |processador               ; 0 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 2    ; 0            ; |processador        ; work         ;
+; |processador               ; 0 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 2    ; 0            ; |processador        ;              ;
 +----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis IP Cores Summary                                                                                                                                                                              ;
-+--------+--------------+---------+--------------+--------------+---------------------------------------------------------------+------------------------------------------------------------------------------------+
-; Vendor ; IP Core Name ; Version ; Release Date ; License Type ; Entity Instance                                               ; IP Include File                                                                    ;
-+--------+--------------+---------+--------------+--------------+---------------------------------------------------------------+------------------------------------------------------------------------------------+
-; Altera ; ROM: 1-PORT  ; 13.0    ; N/A          ; N/A          ; |processador|fetch:fetch|memoria_instrucoes:memoria_intrucoes ; C:/Users/Khalil/Documents/Quartus projetos/Processador_mips/memoria_instrucoes.vhd ;
-; Altera ; RAM: 1-PORT  ; 13.0    ; N/A          ; N/A          ; |processador|mem_final:mem_final|memoria_dados:memoria_dados  ; C:/Users/Khalil/Documents/Quartus projetos/Processador_mips/memoria_dados.vhd      ;
-+--------+--------------+---------+--------------+--------------+---------------------------------------------------------------+------------------------------------------------------------------------------------+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis IP Cores Summary                                                                                                                                                              ;
++--------+--------------+---------+--------------+--------------+---------------------------------------------------------------+--------------------------------------------------------------------+
+; Vendor ; IP Core Name ; Version ; Release Date ; License Type ; Entity Instance                                               ; IP Include File                                                    ;
++--------+--------------+---------+--------------+--------------+---------------------------------------------------------------+--------------------------------------------------------------------+
+; Altera ; ROM: 1-PORT  ; 13.0    ; N/A          ; N/A          ; |processador|fetch:fetch|memoria_instrucoes:memoria_intrucoes ; C:/Users/kiwii/Desktop/mips_uniciclo-master/memoria_instrucoes.vhd ;
+; Altera ; RAM: 1-PORT  ; 13.0    ; N/A          ; N/A          ; |processador|mem_final:mem_final|memoria_dados:memoria_dados  ; C:/Users/kiwii/Desktop/mips_uniciclo-master/memoria_dados.vhd      ;
++--------+--------------+---------+--------------+--------------+---------------------------------------------------------------+--------------------------------------------------------------------+
 
 
 +------------------------------------------------------------+
@@ -635,8 +635,8 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-------------------------------+
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
-    Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Fri Feb 03 18:04:50 2017
+    Info: Version 13.0.0 Build 156 04/24/2013 SJ Web Edition
+    Info: Processing started: Sun Feb 05 20:57:14 2017
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Processador_mips -c Processador_mips
 Warning (20028): Parallel compilation is not licensed and has been disabled
 Info (12021): Found 2 design units, including 1 entities, in source file processador_tb.vhd
@@ -689,6 +689,9 @@ Info (12021): Found 2 design units, including 1 entities, in source file process
 Info (12127): Elaborating entity "processador" for the top level hierarchy
 Info (12128): Elaborating entity "bregula" for hierarchy "bregula:bregula"
 Info (12128): Elaborating entity "ula" for hierarchy "bregula:bregula|ula:ula"
+Warning (10492): VHDL Process Statement warning at ula.vhd(42): signal "tmp2" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at ula.vhd(43): signal "tmp2" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at ula.vhd(44): signal "tmp2" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
 Info (12128): Elaborating entity "breg" for hierarchy "bregula:bregula|breg:breg"
 Info (12128): Elaborating entity "c_ula" for hierarchy "bregula:bregula|c_ula:c_ula"
 Info (12128): Elaborating entity "mux_two_to_one" for hierarchy "bregula:bregula|mux_two_to_one:mux_two_to_one"
@@ -823,10 +826,10 @@ Warning (21074): Design contains 2 input pin(s) that do not drive logic
 Info (21057): Implemented 2 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 2 input pins
     Info (21059): Implemented 0 output pins
-Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 80 warnings
-    Info: Peak virtual memory: 493 megabytes
-    Info: Processing ended: Fri Feb 03 18:04:52 2017
-    Info: Elapsed time: 00:00:02
-    Info: Total CPU time (on all processors): 00:00:02
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 83 warnings
+    Info: Peak virtual memory: 494 megabytes
+    Info: Processing ended: Sun Feb 05 20:57:18 2017
+    Info: Elapsed time: 00:00:04
+    Info: Total CPU time (on all processors): 00:00:04
 
 

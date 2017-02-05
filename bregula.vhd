@@ -28,16 +28,19 @@ signal r1, r2			:	std_logic_vector(31 downto 0);
 signal ctrula			:	std_logic_vector(3 downto 0);
 signal imed_32_aux	:	std_logic_vector(31 downto 0);
 signal res_mux			:	std_logic_vector(31 downto 0);
+signal shamt_aux		:	std_logic_vector(4 downto 0);
 
 begin
 
 	imed_32_aux		<=	std_logic_vector(resize(signed(imed_16), imed_32_aux'length));
 	imed_32 			<= imed_32_aux;
 	mem_data_write	<= r2;
+	shamt_aux		<=	imed_16(10 downto 6);
 
 ula: entity work.ula port map(
 	ulop		=>	ctrula,
 	A			=> r1,
+	shamt		=>	shamt_aux,
 	B			=> res_mux,
 	aluout	=>	dout,
 	zero		=> zero

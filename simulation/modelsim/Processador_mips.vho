@@ -14,9 +14,9 @@
 
 -- VENDOR "Altera"
 -- PROGRAM "Quartus II 64-Bit"
--- VERSION "Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition"
+-- VERSION "Version 13.0.0 Build 156 04/24/2013 SJ Web Edition"
 
--- DATE "02/03/2017 18:05:17"
+-- DATE "02/05/2017 20:57:46"
 
 -- 
 -- Device: Altera EP2C70F896C6 Package FBGA896
@@ -65,7 +65,7 @@ ww_devclrn <= devclrn;
 ww_devpor <= devpor;
 
 -- Location: PIN_G15,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: Default
-\clock~I\ : cycloneii_io
+clock_aI : cycloneii_io
 -- pragma translate_off
 GENERIC MAP (
 	input_async_reset => "none",
@@ -90,7 +90,7 @@ PORT MAP (
 	padio => ww_clock);
 
 -- Location: PIN_H15,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: Default
-\clock_mem~I\ : cycloneii_io
+clock_mem_aI : cycloneii_io
 -- pragma translate_off
 GENERIC MAP (
 	input_async_reset => "none",

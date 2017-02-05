@@ -6,24 +6,20 @@ use	work.mips_pkg.all;
 entity	ula	is
 generic	(	WSIZE	:	natural	:=	32);
 port	(	
-	ulop :	in	std_logic_vector(3				downto	0);
-	A,	B :	in	std_logic_vector(WSIZE-1		downto	0);	
-	shamt:	in std_logic_vector(4				downto	0);
-	
+	ulop :	in	std_logic_vector(3	downto	0);
+	A,	B :	in	std_logic_vector(WSIZE-1	downto	0);	
 	aluout:	out	std_logic_vector(WSIZE-1	downto	0);	
 	zero :	out	std_logic	
 );
 end	ula;
 architecture	behavioral	of	ula	is
-	signal	tmp		:	std_logic_vector(WSIZE-1	downto	0);
-	signal	tmp2		:	integer;
+	signal	tmp		:	std_logic_vector(WSIZE-1	downto	0);	
 	signal	a32		:	std_logic_vector(WSIZE-1	downto	0);
 	constant	C_ZERO	:	std_logic_vector(WSIZE-1	downto	0)	:=	(others	=>	'0');
 
 begin
 	tmp	<=	std_logic_vector(signed(A)	- signed(B));
-	aluout	<=	a32;
-	tmp2	<= to_integer(unsigned(shamt));
+	aluout	<=	a32;	
 proc_ula:	process	(A,	B,	ulop,	a32,	tmp)
 
 	begin
@@ -36,12 +32,8 @@ proc_ula:	process	(A,	B,	ulop,	a32,	tmp)
 			when	ULA_OR 	=>	a32	<=	A	or	B;
 			when	ULA_ADD	=>	a32	<=	std_logic_vector(signed(A)	 +	 signed(B));
 			when	ULA_SUB	=>	a32	<=	tmp;
-			when	ULA_SLT	=>	a32	<=	(0	=>	tmp(31),	others	=>	'0');
-			when 	ULA_XOR	=> a32	<= A 	xor	B;
+			when	ULA_SLT	=>	a32	<=	(0	=>	tmp(31),	others	=>	'0');	
 			when	ULA_NOR	=>	a32	<=	A	nor	B;
-			when	ULA_SLL	=> a32	<= std_logic_vector(unsigned(A) sll tmp2);
-			when	ULA_SRL	=>	a32	<=	std_logic_vector(unsigned(A) srl tmp2);
-			when	ULA_SRA	=> a32	<= std_logic_vector(signed(A)	srl	tmp2);
 			when	others	=>	a32	<=	(others	=>	'X');	
 		end	case;
 	end	process;

@@ -26,15 +26,10 @@ architecture rtl of c_ula is
 			a4 <= "0110";
 		else
 			case func is
-				when "000000"	=>	a4	<= ULA_SLL;
-				when "000010"	=>	a4	<=	ULA_SRL;
-				when "000011"	=>	a4	<=	ULA_SRA;
 				when "100000"	=> a4 <= ULA_ADD;
 				when "100010"	=> a4 <= ULA_SUB;
 				when "100100"	=> a4 <= ULA_AND;
 				when "100101"	=> a4 <= ULA_OR;
-				when "100110"	=> a4	<= ULA_XOR;
-				when "100111"	=>	a4	<= ULA_NOR;
 				when "101010"	=> a4 <= ULA_SLT;
 				when others 	=> a4	<= ULA_UKW;
 			end case;
